@@ -53,7 +53,7 @@ By the end of this section, the test under `<Animation />` should be passing.
 
 ### `componentDidUpdate()`
 `componentDidUpdate()` is generally used to interact with elements outside of React. Suppose we had a Pikachu library that
-handles rendering a Pikachu on the page. The Pikachu image is not part of the React application, but we need to be able to
+handles rendering a Pikachu on the page. The Pikachu image is not part of the React application, but we need to be able to 
 interact with it within React. Open the `<Pikachu />` component and observe it renders two buttons: a button for making the
 Pikachu bigger and another one for making it smaller. You can also see that pressing the buttons will change the component's
 internal state to reflect how big the Pikachu should be. There is already a method that resizes the Pikachu based on new
